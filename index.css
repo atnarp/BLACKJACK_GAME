@@ -2,8 +2,15 @@
     border-style: groove;
     margin: 10px;
     border-color: #fffb09;
+    margin-top: 10vh;
+    box-shadow: 10 4px 8px rgba(0, 0, 0, 0.1);
+    
 }
 
+.entry {
+    margin-top: none;
+    text-align: right;
+}
 
 
 .login-btn{
@@ -16,9 +23,14 @@
     font-size: 12px;
     cursor: pointer;
     transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 4px rgba(224, 224, 224, 0.39);
     width: 100px;
     margin-top: -5vh;
+    
+}
+.login-btn:hover {
+    background: hsl(187, 100%, 50%);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 .signup-btn {
     color: #016f32;
@@ -30,9 +42,13 @@
     font-size: 12px;
     cursor: pointer;
     transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(224, 224, 224, 0.39);
     width: 100px;
     margin-top: -5vh;
+}
+.signup-btn:hover {
+    background: hsl(187, 100%, 50%);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
 body {
@@ -43,7 +59,7 @@ body {
     color: white;
     text-align: center;
     font-size: 22px;
-    margin-top: 10vh;
+    
 }
 
 body .navbar {
